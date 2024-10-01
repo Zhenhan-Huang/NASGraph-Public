@@ -93,6 +93,20 @@ To accelerate the conversion process in Usage 2, one can:
 - Use computation nodes. Conversion is independent for each neural architecture and our implementation supports conversion subsets of neural architectures by changing `--index-st` and `--index-ed` 
 
 
+## Reference
+
+If you find the repo helpful, please consider to cite our paper, thanks!
+
+```
+@article{huang2024nasgraph,
+  title={Graph is All You Need? Lightweight Data-Agnostic Neural Architecture Search Without Training},
+  author={Zhenhan Huang, Tejaswini Pedapati, Pin-Yu Chen, Chunheng Jiang and Jianxi Gao},
+  journal={AutoML 2024 Workshop},
+  year={2024}
+}
+```
+
+
 ## License
 
 The project is released under [APACHE License](LICENSE).
