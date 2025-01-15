@@ -1,6 +1,7 @@
-<h1  align="center" > Graph is All You Need? Lightweight Data-agnostic Neural Architecture Search without Training </h1>
+<h1  align="center" > Unveil the Fundamental Network Properties for
+Neural Architecture Search </h1>
 
-This repository is the official Pytorch implementation of [Graph is All You Need? Lightweight Data-agnostic Neural Architecture Search without Training]().
+This repository is the official Pytorch implementation of [Unveil the Fundamental Network Properties for Neural Architecture Search]().
 
 <h3> Quick Links: </h3>
 
@@ -96,6 +97,8 @@ To accelerate the conversion process in Usage 2, one can:
 ## Reference
 
 If you find the repo helpful, please consider to cite our paper, thanks!
+
+The workshop paper [Graph is All You Need? Lightweight Data-agnostic Neural Architecture Search without Training]():
 
 ```
 @article{huang2024nasgraph,
