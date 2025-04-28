@@ -103,7 +103,7 @@ The workshop paper [Graph is All You Need? Lightweight Data-agnostic Neural Arch
 ```
 @article{huang2024nasgraph,
   title={Graph is All You Need? Lightweight Data-Agnostic Neural Architecture Search Without Training},
-  author={Zhenhan Huang, Tejaswini Pedapati, Pin-Yu Chen, Chunheng Jiang and Jianxi Gao},
+  author={Huang, Zhenhan and Pedapati, Tejaswini and Chen, Pin-Yu and Jiang, Chunheng and Gao, Jianxi},
   journal={AutoML 2024 Workshop},
   year={2024}
 }
