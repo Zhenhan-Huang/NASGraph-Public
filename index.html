@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Unveil Fundamental Graph Properties for Neural Architecture Search</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico?">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Unveil Fundamental Graph Properties for Neural Architecture Search</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://zhenhan-huang.github.io/" target="_blank">Zhenhan Huang</a><sup>1,2</sup>,</span>
+                <span class="author-block">
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Tejaswini Pedapati</a><sup>3</sup>,</span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Pin-Yu Chen</a><sup>3</sup>,</span>
+                    <span class="author-block">
+                      <a href="FOURTH AUTHOR PERSONAL LINK" target="_blank">Chunheng Jiang<sup>1,2</sup></a>,</span>
+                      <span class="author-block">
+                        <a href="FIFTH AUTHOR PERSONAL LINK" target="_blank">Jianxi Gao<sup>1,2</sup></a>,</span>
+                        <span class="author-block">
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">1. Department of Computer Science, Rensselaer Polytechnic Institute<br>2. Network Science and Technology Center, Rensselaer Polytechnic Institute<br>IBM Thomas J. Watson Research Center</span>
+                    <span class="eql-cntrb" style="font-size: 21px; font-weight: bold;"><br>Advanced Science</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                      <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                        </a>
+                      </span>
+
+                      <!-- Supplementary PDF link -->
+                      <span class="link-block">
+                        <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Supplementary</span>
+                        </a>
+                      </span>
+
+                      <!-- Github link -->
+                      <span class="link-block">
+                        <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fab fa-github"></i>
+                        </span>
+                        <span>Code</span>
+                        </a>
+                      </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Deep learning profoundly impacts various areas, such as face recognition and language translation. Owing to the increasingly high computational costs of training neural architectures, it is intractable to manually examine the performance of various neural architectures, promoting the area of Neural architecture search (NAS) that enables artificial intelligence (AI) automation. Despite the advance of NAS in automatically discovering the optimal neural networks, the fundamental understanding of the structure of neural architectures is limited. To fill the gap, we propose a <span style="color:#EB5246">training-free and data-agnostic</span> method dubbed <span style="color:#3D7CEA; font-weight: bold;">NASGraph</span> that converts neural architectures to graphs whose graph properties determine their performances, enabling us to search for or design strong architectures. On various standard NAS benchmarks, <span style="color:#3D7CEA; font-weight: bold;">NASGraph</span> outperforms baseline NAS methods and requires remarkably fewer computation resources. The numerical results illuminate the relationship between neural architecture and its performance, complementing other approaches. Therefore, combining our approach with these approaches leads to performance improvement, but not combining the others. Our study offers a new perspective on network science for AI, potentially advancing various aspects of machine learning and uncovering the black box of convolutional neural networks.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Paper demo -->
+<section class="hero is-small is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <!-- Youtube embed code here -->
+            <iframe src="static/videos/demo.mp4" frameborder="0" type="video/mp4"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Paper demo -->
+
+
+<!-- Paper demo -->
+<section class="hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <br>
+        <h2 class="title is-3">Method</h2>
+        <div class="content has-text-justified">
+          <h4 class="title is-5">Training-Free Mapping</h4>
+          <p>
+            <span style="color:#3D7CEA; font-weight: bold;">NASGraph</span> relies merely on forward propagation over neural networks that have randomly initialized weights. The mapping process is considered as training-free as it does not require any training of neural networks nor training of neural networks, nor training of a predictor to relate prediction metrics to the performance of neural networks. Graph properties of converted neural networks, in the <span style="color:#3D7CEA; font-weight: bold;">NASGraph</span> mapping strategy, exhibit a correlation with neural network performance without entailing any training.
+          </p>
+          <h4 class="title is-5">Efficiency in Graph Space</h4>
+          <p>
+            <span style="color:#3D7CEA; font-weight: bold;">NASGraph</span> bridges the neural network space to the graph space, which enables high efficiency in computing prediction logits by utilizing the significantly lower computational costs for computing graph properties compared to training neural networks.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+</section>
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <div class="has-text-centered"><img src="static/images/nasspace_correlation.png" alt="MY ALT TEXT" style="width: 20cm; height: auto;"/></div>
+        <h2 class="subtitle has-text-centered">
+          High ranking correlation on standard NAS benchmarks: NAS-Bench-201, TransNAS-Bench-101, Network Design Space
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <div class="has-text-centered"><img src="static/images/nasbench201_metric_combined.png" alt="MY ALT TEXT" style="width: 26cm; height: auto;"/></div>
+        <h2 class="subtitle has-text-centered">
+          <span style="color:#3D7CEA; font-weight: bold;">NASGraph</span> is a data-agnostic approach. Empirical results indicate that ranks of neural architectures stay constant across different datasets: CIFAR-10, CIFAR-100, ImageNet-16-120.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <div class="has-text-centered"><img src="static/images/best_and_worst_arch_nasbench201.png" alt="MY ALT TEXT" style="width: 20cm; height: auto;"/></div>
+        <h2 class="subtitle has-text-centered">
+          Visualization of the best and worse neural architectures in a fixed search space and their corresponding mapped graphs. Node colors indicate components in a neural network that have the same model depth. 
+       </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <div class="has-text-centered"><img src="static/images/computation_cost_comp.png" alt="MY ALT TEXT" style="width: 20cm; height: auto;"/></div>
+        <h2 class="subtitle has-text-centered">
+          <span style="color:#3D7CEA; font-weight: bold;">NASGraph</span> maps neural networks to graphs. Due to the lightweight computation of graph properties, <span style="color:#3D7CEA; font-weight: bold;">NASGraph</span> approach is highly efficient (require low computational resources and low inference time).
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <div class="has-text-centered"><img src="static/images/metric_comparison.png" alt="MY ALT TEXT" style="width: 20cm; height: auto;"/></div>
+        <h2 class="subtitle has-text-centered">
+          <span style="color:#3D7CEA; font-weight: bold;">NASGraph</span> exhibits low bias towards NAS operations.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <div class="has-text-centered"><img src="static/images/nasbench201_corr_full.png" alt="MY ALT TEXT" style="width: 20cm; height: auto;"/></div>
+        <h2 class="subtitle has-text-centered">
+          <span style="color:#3D7CEA; font-weight: bold;">NASGraph</span> uses the average degree as the metric to rank neural architectures. Other graph properties also exhibit a good correlation between predicted performance and real performance.
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <pre><code>@article{huang2026ufg
+        title   = {Unveil Fundamental Graph Properties for Neural Architecture Search},
+        author  = {Huang, Zhenhan and Pedapati, Tejaswini and Chen, Pin-Yu and Jiang, Chunheng and Gao, Jianxi},
+        journal = {Advanced Science},
+        year    = {2026}
+    }</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            Website adapted from the following <a href="https://nerfies.github.io" target="_blank"> source code</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
