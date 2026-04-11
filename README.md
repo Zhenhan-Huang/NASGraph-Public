@@ -3,7 +3,12 @@ Neural Architecture Search </h1>
 
 This repository is the official Pytorch implementation of [Unveil the Fundamental Network Properties for Neural Architecture Search]().
 
-<h3> Quick Links: </h3>
+<h3>🔥 News</h3>
+
+🎉 Our work was accepted by Advanced Science. The manuscript can be found [here](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202516574).  
+🎉 We created a [project page](https://zhenhan-huang.github.io/NASGraph-Public/).
+
+<h3> 🔗 Quick Links: </h3>
 
 [**Introduction**](#introduction)
 | [**Stup Virtual Environment**](#setup-virtual-environment)
@@ -12,7 +17,7 @@ This repository is the official Pytorch implementation of [Unveil the Fundamenta
 | [**Misc**](#misc)
 | [**License**](#license)
 
-## Introduction
+## 👀 Introduction
 
 We propose a novel framework, *NASGraph*, to achieve training-free neural architecture search (NAS). *NASGraph* framework converts neural architecture, $a$, to graph $G(V, E)$. 
 <div align="center">
@@ -20,7 +25,7 @@ We propose a novel framework, *NASGraph*, to achieve training-free neural archit
 </div>
 <br>
 
-## Setup Virtual Environment
+## 📦 Setup Virtual Environment
 
 1. Create virtual environment
 ```
@@ -47,7 +52,7 @@ python -m pip install .
 pip install -r requirements.txt
 ```
 
-## Download Benchmarks
+## ✅  Download Benchmarks
 
 - Download NAS-Bench-101 benchmark file: [nasbench_only108.tfrecord](https://storage.googleapis.com/nasbench/nasbench_only108.tfrecord)
 
@@ -65,7 +70,7 @@ Credit to Git repo: [ TransNAS-Bench-101: Improving Transferrability and General
 
 Credit to Git repo: [On Network Design Spaces for Visual Recognition](https://github.com/facebookresearch/nds)
 
-## Usage
+## 🎯 Usage
 
 1. (Optional) Extract archtecture information of NAS benchmarks and store it in `<nas_info_file>` (We provide extracted files in `./data/` directory)
 
@@ -86,7 +91,7 @@ bash compute_graph_props.sh <working dir> <output_dir> <file_pattern_of_graph_fi
 ```
 
 
-## Misc
+## 🗒️ Misc
 
 To accelerate the conversion process in Usage 2, one can:
 
@@ -94,13 +99,22 @@ To accelerate the conversion process in Usage 2, one can:
 - Use computation nodes. Conversion is independent for each neural architecture and our implementation supports conversion subsets of neural architectures by changing `--index-st` and `--index-ed` 
 
 
-## Reference
+## 📚 Reference
 
 If you find the repo helpful, please consider to cite our paper, thanks!
 
 The workshop paper [Graph is All You Need? Lightweight Data-agnostic Neural Architecture Search without Training]():
 
 ```
+@article{huang2026unveil,
+  title={Unveil Fundamental Graph Properties for Neural Architecture Search},
+  author={Huang, Zhenhan and Pedapati, Tejaswini and Chen, Pin-Yu and Jiang, Chunheng and Gao, Jianxi},
+  journal={Advanced Science},
+  pages={e16574},
+  year={2026},
+  publisher={Wiley Online Library}
+}
+
 @article{huang2024nasgraph,
   title={Graph is All You Need? Lightweight Data-Agnostic Neural Architecture Search Without Training},
   author={Huang, Zhenhan and Pedapati, Tejaswini and Chen, Pin-Yu and Jiang, Chunheng and Gao, Jianxi},
@@ -110,7 +124,7 @@ The workshop paper [Graph is All You Need? Lightweight Data-agnostic Neural Arch
 ```
 
 
-## License
+## 📄 License
 
 The project is released under [APACHE License](LICENSE).
 
